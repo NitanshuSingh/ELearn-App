@@ -3,6 +3,11 @@
 🔧 Overview
 This project is a full-stack e-learning platform containerized using Docker for efficient development, deployment, and scalability.
 
+🗄️ Database (MySQL)
+A lightweight MySQL Docker container serves as the primary database.
+Stores users, courses, enrollments, progress tracking, and other app data.
+Environment variables like MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, MYSQL_USER, and MYSQL_PASSWORD are configured for secure setup.
+
 🧠 Backend (.NET 8)
 Developed using ASP.NET Core (.NET 8).
 Contains business logic, API endpoints, and integration with databases or external services.
